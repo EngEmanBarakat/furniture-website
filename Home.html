@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body>
+    
+
+    <nav>
+        <div><img src="photos/Frame 168.png" alt="logo"></div>
+        <div>
+            <a href="http://127.0.0.1:5500/Home.html">Home</a>
+            <a href="http://127.0.0.1:5500/shop.html">Shop</a>
+            <a href="http://127.0.0.1:5500/blog.html">About</a>
+            <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+        </div>
+        <div>
+            <div><a href=""><img src="photos/Account.png"></a></div>
+            <div><a href=""><img src="photos/Search.png"></a></div>
+            <div><a href=""><img src="photos/Heart.png"></a></div>
+            <div><a href="http://127.0.0.1:5500/Cart.html"><img src="photos/Cart.png"></a></div>
+            <div id="cart-count">0</div>
+            <div id="Like-count">0</div>
+        </div>
+        <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="Sec1">
+        <div>
+            <div>New Arrival</div>
+            <div>Discover Our New Collection</div>
+            <div>Lorem ipsum dolor sit amet consectetur
+                simil vel voluptatibus libero
+                vitae ipsa facilis blanditiis.</div>
+            <a href="http://127.0.0.1:5500/shop.html"><button>Buy Now</button></a>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="Sec-2">
+        <div>
+            <h1>Browse The Range</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div>
+            <div>
+                <div><img src="photos/Dining.png" alt="Dining"></div>
+                <a href="">Dinning</a>
+            </div>
+            <div>
+                <div><img src="photos/living.png" alt="living"></div>
+                <a href="">Living</a>
+            </div>
+            <div>
+                <div><img src="photos/Bedroom.png" alt="Bedroom"></div>
+                <a href="">Bedroom</a>
+            </div>
+        </div>
+    </div>
+    <div class="Sec-3">
+        <div>our products</div>
+        <div class="Grid">
+
+            <a class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 1.png);">
+                        <img src="photos/Discount 30.png" alt="Discount"
+                            style="width:48px; height: 48px; float: right; margin: 5%;">
+                    </div>
+                    <div>
+                        <p>Syltherine</p>
+                        <p>Stylish cafe chair</p>
+                        <div><p class="Price">Rp 2.500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;">Rp 3.500.000</span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(1)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 2.webp);">
+                    </div>
+                    <div>
+                        <p>Syltherine</p>
+                        <p>Stylish cafe chair</p>
+                        <div><p class="Price">Rp 2.500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;">Rp 3.500.000</span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(2)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 3.png);">
+                        <img src="photos/Label 50.png" alt="Discount"
+                            style="width:48px; height: 48px; float: right; margin: 5%;">
+                    </div>
+                    <div>
+                        <p>Lolito</p>
+                        <p>Luxury big sofa</p>
+                        <div><p class="Price">Rp 7.500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;">Rp 14.500.000</span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(3)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 4.png);">
+                        <img src="photos/Label new.png" alt="Discount"
+                            style="width:48px; height: 48px; float: right; margin: 5%;">
+                    </div>
+                    <div>
+                        <p>Syltherine</p>
+                        <p>Stylish cafe chair</p>
+                        <div><p class="Price">Rp 2.500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;">Rp 3.500.000</span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(4)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 5.png);"></div>
+                    <div>
+                        <p>Grifo</p>
+                        <p>Night lamp</p>
+                        <div><p class="Price">Rp 1.500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;"></span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(5)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 6.png);">
+                        <img src="photos/Label new.png" alt="Discount"
+                            style="width:48px; height: 48px; float: right; margin: 5%;">
+                    </div>
+                    <div>
+                        <p>Muggo</p>
+                        <p>Small mug</p>
+                        <div><p class="Price">Rp 150.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;"></span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(6)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 7.png);">
+                        <img src="photos/Label 50.png" alt="Discount"
+                            style="width:48px; height: 48px; float: right; margin: 5%;">
+                    </div>
+                    <div>
+                        <p>Pingky</p>
+                        <p>Cute bed set</p>
+                        <div><p class="Price">Rp 7.500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;">Rp 14.500.000</span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(7)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+            <a  class="product">
+                <div>
+                    <div style="background-image: url(photos/image\ 8.png);">
+                        <img src="photos/Label new.png" alt="Discount"
+                            style="width:48px; height: 48px; float: right; margin: 5%;">
+                    </div>
+                    <div>
+                        <p>Potty</p>
+                        <p>Minimalist flower pot</p>
+                        <div><p class="Price">Rp 500.000 </p>
+                            <span style=" text-decoration:line-through; font-size: 16px; 
+                            font-weight: 400; line-height: 24px; margin-left: 4%;"></span>
+                        </div></div>
+                </div>
+                <div class="Soha">
+                    <button>Add to Cart</button>
+                    <div>
+                        <button>Share</button>
+                        <button onclick="ViewProductDetails(8)">View</button>
+                        <button>like</button>
+                    </div>
+                </div>
+            </a>
+
+        </div>
+        <div><input type="button" onclick="location.href='http://127.0.0.1:5500/shop.html'"; value="Show more" />
+        </div>
+    </div>
+
+
+    <section class="Sec-4">
+        <div>
+            <h1>50+ Beautiful rooms
+                inspiration</h1>
+            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
+            <button>Explore More</button>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <div>
+                        <p>01 Bed Room</p>
+                        <h>Inner Peace</h>
+                    </div>
+                    <button> &#8594;</button>
+                </div>
+
+            </div>
+            <div>
+                <div>
+
+                </div>
+                <div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <button>></button>
+    </section>
+
+
+    <section class="Sec-5">
+        <div>
+            <p>Share your setup with</p>
+            <h>#FuniroFurniture</h>
+        </div>
+        <div>
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div>
+                <div></div>
+            </div>
+            <div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="Sec-6">
+            <div>
+                <div>
+                    <h1>Funiro.</h1>
+                    <p>400 University Drive Suite 200 Coral<br> Gables,<br>
+                        FL 33134 USA</p>
+                </div>
+                <div>
+                    <p>Links</p>
+                    <a href="http://127.0.0.1:5500/Home.html">Home</a>
+                        <a href="http://127.0.0.1:5500/shop.html">Shop</a>
+                        <a href="http://127.0.0.1:5500/blog.html">About</a>
+                        <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+                        
+                </div>
+                <div>
+                    <p>Help</p>
+                    <a href="">Payment Options</a>
+                    <a href="">Returns</a>
+                    <a href="">Privacy Policies</a>
+                    <div class="newsletter">
+                        <p>Newsletter</p>
+                        <div>
+                            <input type="email" style="border: none; border-bottom: solid 1px;"
+                                placeholder="Enter Your Email Address">
+                            <button
+                                style="border: none; border-bottom: solid 1px; background-color: transparent;">Subscribe</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <p>Newsletter</p>
+                    <div>
+                        <input type="email" style="border: none; border-bottom: solid 1px;"
+                            placeholder="Enter Your Email Address">
+                        <button
+                            style="border: none; border-bottom: solid 1px; background-color: transparent;">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <hr>
+                <p>2023 furino. All rights reverved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/js/all.min.js"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script src="main.js"></script>
+</body>
+
+</html>
